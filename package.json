@@ -1,0 +1,24 @@
+{
+  "name": "durabot-nodejs",
+  "version": "1.0.0",
+  "description": "MIA está viva, viva!",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ahirton Lopes",
+  "dependencies": {
+    "mic": "^2.1.1",
+    "node-ffprobe": "^1.2.2",
+    "play-sound": "^1.1.1",
+    "prompt": "^1.0.0",
+    "raspicam": "git+https://github.com/troyth/node-raspicam.git",
+    "sox": "^0.1.0",
+    "watson-developer-cloud": "^2.2.0"
+  }
+}
